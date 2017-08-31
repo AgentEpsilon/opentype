@@ -48,7 +48,7 @@ module.exports = function (buffer, font) {
         if (!data[language]) {
           data[language] = {};
         }
-
+		if (encoding === 'symbol') throw 'symbol'
         data[language][name] = table.readString(encoding, record.length, stringOffset + record.offset);
       }
     }

@@ -26,17 +26,17 @@ var TABLES = {
   // `hhea` and `maxp` tables to be parsed. The
   // `post` table (depending on its version)
   // requires the `maxp` table to be parsed.
-  'cmap': cmap,
-  'head': head,
-  'hhea': hhea,
-  'maxp': maxp,
-  'hmtx': hmtx,
+  //'cmap': cmap,
+  //'head': head,
+  //'hhea': hhea,
+  //'maxp': maxp,
+  //'hmtx': hmtx,
   'name': name,
-  'OS/2': os_2,
-  'post': post,
-  'GSUB': gsub,
-  'GDEF': gdef,
-  'gasp': gasp
+  //'OS/2': os_2,
+  //'post': post,
+  //'GSUB': gsub,
+  //'GDEF': gdef,
+  //'gasp': gasp
 };
 
 /**
